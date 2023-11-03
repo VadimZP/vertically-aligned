@@ -1,5 +1,7 @@
 export default function List({ children }: { children: React.ReactElement[] }) {
-  return <ul className="flex justify-evenly lg:justify-start lg:mt-auto">{children}</ul>;
+  return (
+    <ul className="flex justify-evenly lg:mt-auto lg:justify-start">
+      {children}
+    </ul>
+  );
 }
-
-//  mt-auto
